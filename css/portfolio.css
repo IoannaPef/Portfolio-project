@@ -88,6 +88,33 @@ p {
     line-height: 27px;
     padding: 15px 30px;
 }
+.my-logo{
+  max-height: 40px;
+}
+nav{
+  padding: 20px 0;
+}
+nav ul{
+  margin: 0;
+  padding: 0;
+}
+nav li{
+  display: inline;
+  list-style: none;
+  line-height: 41px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 120ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--primary-color);
+}
+
+
 @media(max-width:960px){
     .project-discription{
         padding: 20px;
@@ -110,6 +137,8 @@ p {
       text-align: center;
       padding: 0;
     }
-
+    nav a {
+      font-size: 12px;
+    }
     
 }
