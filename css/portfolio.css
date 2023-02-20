@@ -25,7 +25,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4{
+h3{
   font-size: 48px;
 }
 p {
@@ -51,7 +51,7 @@ p {
   color: #272142;
 }
 .the-main-style{
-  padding: 120px 60px;
+  padding: 60px 60px;
 }
 .the-main-style h1{
   font-size: 64px;
@@ -71,7 +71,7 @@ p {
 .main-section-content p{
   text-align: center;
 }
-.btn {
+.btn-branding {
   background: var(--primary-color);
   border-radius: 4px;
   color: white;
@@ -79,17 +79,17 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.project-discription {
-  padding: 120px 60px;
-}
+
 .btn-branding-yogurt{
-    background: var(--secondary-color);
-    border: 1px solid var(--primary-color);
     color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 4px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+.project-discription {
+  padding: 120px 60px;
 }
 .my-logo{
   max-height: 40px;
@@ -152,14 +152,20 @@ footer .social-links a {
         padding: 20px;
         text-align: center;
     }
-    h1 {
-        font-size: 60px;
+    h1{
+      font-size: 40px;
     }
-    h2{
-        font-size: 44px;
+    .the-main-style h1 {
+        font-size: 40px;
+    }
+    .the-main-style h2{
+        font-size: 40px;
+    }
+    h3{
+      font-size: 30px;
     }
     .my-homepage{
-        padding: 80px 20px;
+        padding: 70px 20px;
     }
     .project-discription{
         padding: 0;
