@@ -61,15 +61,18 @@ p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.main-section-content{
+.content{
   margin: 30px;
 }
-.main-section-content h3{
+.content h1{
+  font-size: 64px;
+}
+.content h3{
   font-size: 24px;
   font-family: var(--default-font-family);
 }
-.main-section-content p{
-  text-align: center;
+.content p{
+  font-size: 18px;
 }
 .btn-branding {
   background: var(--primary-color);
@@ -131,7 +134,7 @@ footer .contact-box p {
 footer .email-link{
   text-decoration: none;
   color: black;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 footer .email-link:hover{
